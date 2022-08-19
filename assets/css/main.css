@@ -4096,58 +4096,6 @@ a {
   border-radius: 10px;
   box-shadow: 0px 0px 100px #000;
 }
-.popupVideo iframe {
-  width: 85%;
-  height: 80%;
-  /* border-radius: 50px; */
-}
-.popupVideo i {
-  z-index: 12;
-  color: rgb(0, 0, 0);
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 2vw;
-  height: 2vw;
-  width: 2vw;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1vw;
-  cursor: pointer;
-}
-@media only screen and (max-width: 1000px) {
-  .popupVideo {
-    width: 80vw;
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 10;
-    margin-left: 10vw;
-    margin-top: 30vh;
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    box-shadow: 0px 0px 100px #000;
-  }
-  .popupVideo i {
-    z-index: 12;
-    color: rgb(0, 0, 0);
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 5vw;
-    height: 7vw;
-    width: 7vw;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1vw;
-  }
-}
 .gws-on-hover {
   display: inline-block;
   vertical-align: middle;
